@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -38,7 +36,7 @@
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="OVl-Vy-Hss" firstAttribute="centerY" secondItem="7Lr-a6-pgK" secondAttribute="centerY" priority="750" id="ML0-7M-cQe"/>
+                                    <constraint firstItem="OVl-Vy-Hss" firstAttribute="centerY" secondItem="7Lr-a6-pgK" secondAttribute="centerY" priority="750" identifier="titleCenterY" id="ML0-7M-cQe"/>
                                     <constraint firstItem="IOq-Pr-fqH" firstAttribute="centerY" secondItem="OVl-Vy-Hss" secondAttribute="centerY" id="NcL-NH-gxp"/>
                                     <constraint firstItem="OVl-Vy-Hss" firstAttribute="centerX" secondItem="7Lr-a6-pgK" secondAttribute="centerX" id="PlC-5c-Tdx"/>
                                     <constraint firstAttribute="height" constant="80" id="vCC-PK-uyy"/>
@@ -53,7 +51,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CbD-QP-Lae" id="YBH-Qu-lpc">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -79,6 +77,8 @@
                     </view>
                     <connections>
                         <outlet property="menuButton" destination="IOq-Pr-fqH" id="0t9-pJ-1Cr"/>
+                        <outlet property="menuButtonTrallingConstant" destination="yNV-0i-Atf" id="CRZ-53-Ucm"/>
+                        <outlet property="menuViewHeightConstant" destination="vCC-PK-uyy" id="VLr-td-Ykq"/>
                         <outlet property="tableView" destination="tdH-ZN-xEy" id="JzZ-jq-73Q"/>
                         <outlet property="titleLabel" destination="OVl-Vy-Hss" id="KYJ-17-5qZ"/>
                     </connections>

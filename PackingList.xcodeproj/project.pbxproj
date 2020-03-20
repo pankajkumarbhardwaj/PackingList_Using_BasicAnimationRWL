@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C37E78124233CBD00D212BA /* 3-Options.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3-Options.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9C70905F1A12023F0075390C /* PackingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7090631A12023F0075390C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7090641A12023F0075390C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,11 +38,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C37E78024233C7A00D212BA /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				2C37E78124233CBD00D212BA /* 3-Options.playground */,
+			);
+			path = PlayGround;
+			sourceTree = "<group>";
+		};
 		9C7090561A12023F0075390C = {
 			isa = PBXGroup;
 			children = (
 				9C7090611A12023F0075390C /* PackingList */,
 				9C7090601A12023F0075390C /* Products */,
+				2C37E78024233C7A00D212BA /* PlayGround */,
 			);
 			sourceTree = "<group>";
 		};
